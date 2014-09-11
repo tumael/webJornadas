@@ -3,8 +3,8 @@ body {
 }
 
 .borde {
-	border-top: .5em solid black;
-	border-bottom: .5em solid black;
+	border-top: .5em solid gray;
+	border-bottom: .5em solid gray;
 }
 
 .borde-inferior {
