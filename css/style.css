@@ -1,0 +1,332 @@
+html,body {
+	font-size: 16px;
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+    background:black;
+    overflow-x:hidden;
+    min-height: 320px;
+}
+
+.binario {
+    color: #63FF57;
+    display: inline-block;
+    position: absolute;
+    top:-100%;
+    width:16px;
+
+    -webkit-animation-name: matrix;
+    -moz-animation-name: matrix;
+    -o-animation-name: matrix;
+    animation-name: matrix;
+
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    animation-iteration-count:infinite;
+
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+.binario span {
+    display:block;
+}
+
+
+/* efectos */
+.uno
+{
+    left: 5%;
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    -o-animation-duration:2s;
+    animation-duration:2s;
+}
+.dos
+{
+    left: 9%;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -o-animation-duration: 5s;
+    animation-duration: 5s;
+}
+.tres
+{
+    left: 9%;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.cuatro
+{
+    left: 13%;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+}
+.cinco
+{
+    left: 15%;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-duration: 4s;
+}
+.seis
+{
+    left: 17%;
+    -webkit-animation-duration: 7s;
+    -moz-animation-duration: 7s;
+    -o-animation-duration: 7s;
+    animation-duration: 7s;
+}
+.siete
+{
+    left:23%;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+}
+.ocho
+{
+    left:27%;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -o-animation-duration: 6s;
+    animation-duration: 6s;
+}
+.nueve
+{
+    left:27%;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.diez
+{
+    left:31%;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-duration: 4s;
+}
+.once
+{
+    left:33%;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -o-animation-duration: 5s;
+    animation-duration: 5s;
+}
+.doce
+{
+    left:35%;
+    -webkit-animation-duration: 8s;
+    -moz-animation-duration: 8s;
+    -o-animation-duration: 8s;
+    animation-duration: 8s;
+}
+.trece
+{
+    left:39%;
+    -webkit-animation-duration: 1500ms;
+    -moz-animation-duration: 1500ms;
+    -o-animation-duration: 1500ms;
+    animation-duration: 1500ms;
+}
+.catorce
+{
+    left:43%;
+    -webkit-animation-duration: 4500ms;
+    -moz-animation-duration: 4500ms;
+    -o-animation-duration: 4500ms;
+    animation-duration: 4500ms;
+}
+.quince
+{
+    left:43%;
+    -webkit-animation-duration: 500ms;
+    -moz-animation-duration: 500ms;
+    -o-animation-duration: 500ms;
+    animation-duration: 500ms;
+}
+.dseis
+{
+    left:47%;
+    -webkit-animation-duration: 2500ms;
+    -moz-animation-duration: 2500ms;
+    -o-animation-duration: 2500ms;
+    animation-duration: 2500ms;
+}
+.dsiete
+{
+    left:51%;
+    -webkit-animation-duration: 3500ms;
+    -moz-animation-duration: 3500ms;
+    -o-animation-duration: 3500ms;
+    animation-duration: 3500ms;
+}
+.docho
+{
+    left:55%;
+    -webkit-animation-duration: 6500ms;
+    -moz-animation-duration: 6500ms;
+    -o-animation-duration: 6500ms;
+    animation-duration: 6500ms;
+}
+.dnueve
+{
+    left:60%;
+    -webkit-animation-duration: 2500ms;
+    -moz-animation-duration: 2500ms;
+    -o-animation-duration: 2500ms;
+    animation-duration: 2500ms;
+}
+.v
+{
+    left:64%;
+    -webkit-animation-duration: 5500ms;
+    -moz-animation-duration: 5500ms;
+    -o-animation-duration: 5500ms;
+    animation-duration: 5500ms;
+}
+.vuno
+{
+    left:64%;
+    -webkit-animation-duration: 15000ms;
+    -moz-animation-duration: 15000ms;
+    -o-animation-duration: 15000ms;
+    animation-duration: 15000ms;
+}
+.vdos
+{
+    left:70%;
+    -webkit-animation-duration: 35000ms;
+    -moz-animation-duration: 35000ms;
+    -o-animation-duration: 35000ms;
+    animation-duration: 35000ms;
+}
+.vtres
+{
+    left:74%;
+    -webkit-animation-duration: 45000ms;
+    -moz-animation-duration: 45000ms;
+    -o-animation-duration: 45000ms;
+    animation-duration: 45000ms;
+}
+.vcuatro
+{
+    left:78%;
+    -webkit-animation-duration: 75000ms;
+    -moz-animation-duration: 75000ms;
+    -o-animation-duration: 75000ms;
+    animation-duration: 75000ms;
+}
+.vcinco
+{
+    left: 83%;
+    -webkit-animation-duration: 12s;
+    -moz-animation-duration: 12s;
+    -o-animation-duration: 12s;
+    animation-duration: 12s;
+}
+.vseis
+{
+    left: 87%;
+    -webkit-animation-duration: 15s;
+    -moz-animation-duration: 15s;
+    -o-animation-duration: 15s;
+    animation-duration: 15s;
+}
+.vsiete
+{
+    left: 87%;
+    -webkit-animation-duration: 11s;
+    -moz-animation-duration: 11s;
+    -o-animation-duration: 11s;
+    animation-duration: 11s;
+}
+.vocho
+{
+    left: 89%;
+    -webkit-animation-duration: 13s;
+    -moz-animation-duration: 13s;
+    -o-animation-duration: 13s;
+    animation-duration: 13s;
+}
+.vnueve
+{
+    left: 91%;
+    -webkit-animation-duration: 14s;
+    -moz-animation-duration: 14s;
+    -o-animation-duration: 14s;
+    animation-duration: 14s;
+}
+.t
+{
+    left: 92%;
+    -webkit-animation-duration: 17s;
+    -moz-animation-duration: 17s;
+    -o-animation-duration: 17s;
+    animation-duration: 17s;
+}
+@-webkit-keyframes matrix
+{
+    1%
+    {
+        opacity: 1;
+        top:-100%;
+    }
+    100%
+    {
+        opacity: 0;
+        top:100%;   
+    }
+}
+@-moz-keyframes matrix
+{
+    1%
+    {
+        opacity: 1;
+        top:-100%;
+    }
+    100%
+    {
+        opacity: 0;
+        top:100%;   
+    }
+}
+@-o-keyframes matrix
+{
+    1%
+    {
+        opacity: 1;
+        top:-100%;
+    }
+    100%
+    {
+        opacity: 0;
+        top:100%;   
+    }
+}
+@keyframes matrix
+{
+    1%
+    {
+        opacity: 1;
+        top:-100%;
+    }
+    100%
+    {
+        opacity: 0;
+        top:100%;   
+    }
+}

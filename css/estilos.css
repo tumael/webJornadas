@@ -3,17 +3,25 @@ body {
 }
 
 .borde {
-	border-top: .5em solid gray;
-	border-bottom: .5em solid gray;
+	border-top: .5em solid #26A9E1;
+	border-bottom: .5em solid #26A9E1;
+}
+div > p {
 }
 
+.text-primary {
+    color : #26A9E2;
+}
 .borde-inferior {
 	border-top: none;
 	border-bottom: none;
 }
 
 .jumbotron {
-	background: #31708F;
+	background: #26A9E1;
+}
+.jumbotron h2 {
+	color: #FFFFFF;
 }
 
 #mi-reloj {
@@ -34,7 +42,9 @@ body {
   	margin-left: auto;
   	margin-right: auto;
 }
-
+.patrocinadores {
+    background: #26A9E2;
+}
 .titulo {
 	color: white;
 }
@@ -42,4 +52,18 @@ body {
 .centrar-reloj {
 	max-width: 600px;
 	margin: 0 auto;
+}
+.btn-success {
+    display: none;
+}
+section h3 {
+    display: none;
+}
+blockquote {
+    color: #26A9E1;
+    font-size: 1.5em;
+    padding-top: 3em;
+}
+header h2 {
+    font-size: 3em;
 }
