@@ -1,7 +1,7 @@
 $(document).on('ready', iniciarTemporizador);
 
 function iniciarTemporizador(){
-	var fechaFinal = new Date(2014, 09, 07, 12, 30, 00);
+	var fechaFinal = new Date(2014, 09, 02, 12, 30, 00);
 	var fechaHoy = new Date();
 
 	var diferenciaMilisegundos = fechaFinal.getTime() - fechaHoy.getTime();
